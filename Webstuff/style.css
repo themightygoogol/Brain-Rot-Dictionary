@@ -2,6 +2,36 @@ html {
     font-size: 65.5%
 }
 
+.original {
+    background-color: hotpink;
+    width: auto;
+    border: 15px solid skyblue;
+    padding: 25px;
+    margin: 10px;
+}
+
+.left {
+    background-color: tomato;
+    width: 45%;
+    float:left;
+    padding: 25px;
+    margin-left: 10px;
+
+}
+
+.right{
+    background-color: steelblue;
+    width: 45%;
+    float:right;
+    padding: 25px;
+    margin-right: 10px;
+}
+
+.clearDiv {
+    width: auto;
+
+
+}
 
 body {
     background-color: aquamarine;
