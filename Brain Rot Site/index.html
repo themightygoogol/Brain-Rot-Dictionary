@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Brain Rot Dictionary</title>
+</head>
+
+<script>
+
+    function changeToFamilyGuy() {
+        var infoParagraph = document.getElementById("topicInfo");
+        var exampleVideo = document.getElementById("topicInfo");
+        infoParagraph.innerHTML = "Overstimulation Videos, also known as Sludge Content or ADHD Videos, refer to a type of split-screen video content (primarily posted to TikTok) that shows a main piece of media in the top half and a secondary piece of media in the bottom half meant to catch the viewer's eye and occupy them, akin to a low attention span and stereotypically associated with ADHD. The media in the bottom half is most often mobile app gameplay, ASMR videos (such as Kinetic Sand or DIY repair videos) and other types of oddly satisfying visuals. Other than for attention purposes, a secondary video is often added to avoid copyright strikes. Starting in late 2022, the phenomenon became increasingly prevalent online, however, forms of overstimulation content date back to the 2010s on YouTube. In 2022 and 2023, specifically Family Guy and Subway Surfers became standout symbols of the genre, leading to memes such as Boring Ahh Family Guy Episode and the Family Guy Pipeline Incident. Due to the discourse and stigmas surrounding overstimulation videos, parodies ensued that spoofed the visual format, often related to stereotypes about Gen Alpha and Zoomers akin to iPad kid comparisons.";
+    }
+
+</script>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: aqua;
+        text-align: center;
+        margin: 0;
+    }
+
+    header h1 {
+        color: purple;
+    }
+
+    header h3 {
+        color: magenta;
+    }
+
+    #main {
+        display: flex;
+    }
+
+    nav {
+        background-color: aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    #wordsAndInfo {
+        height: 100%;
+    }
+
+    #topTable {
+        width: 100%;
+        height: 100%;
+        position:static;
+    }
+
+    #innerTable {
+        width: 100%;
+    }
+
+    #topTable tr {
+        background-color: azure;
+    }
+
+    #leftSide {
+        height: 100%;
+        width: 50%;
+        overflow-y: scroll;
+    }
+
+    #leftSide li {
+        list-style-type: none;
+        text-align: left;
+        margin-left: 10mm;
+    }
+
+    #rightSide {
+        height: 100%;
+        width: 50%;
+    }
+
+    #rightSide li {
+        list-style-type: none;
+        text-align: left;
+    }
+
+    #rightLeft {
+        height: 100%;
+        width: 50%;
+    }
+
+    #rightRight {
+        height: 100%;
+        width: 50%;
+        overflow-y: scroll;
+    }
+
+    #innerTable tr {
+        background-color: bisque;
+    }
+
+    #brainRotWordTitle {
+        text-align: center;
+    }
+</style>
+
+
+<body>
+
+    <header id="pageHeader">
+        <h1>Brain Rot Dictionary</h1>
+        <h3>A Sigma's Paradise</h3>
+    </header>
+
+    <section id="navigation">
+        <nav>
+            <ul>
+                <li><a
+                        href="https://www.google.com/search?q=therapist+near+me&oq=therap&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBwgCEAAYjwIyBwgDEAAYjwIyBggEEEUYPNIBCDExMTZqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8">Get
+                        Help</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="wordsAndInfo">
+        <table id="topTable">
+            <tr>
+                <th>Words</th>
+                <th>Info</th>
+            </tr>
+            <tr>
+                <td id="leftSide">
+                    <li id="Alpha"><a href="#">Alpha</a></li>
+                    <li><button type="button">Sigma</button></li>
+                    <li><button type="button">gyatt</a></button>
+                    <li><a href="#">skibidi</a></li>
+                    <li><a href="#">only in ohio</a></li>
+                    <li><a href="#">rizz</a></li>
+                    <li><a href="#">based</a></li>
+                    <li><a href="#">t-pose</a></li>
+                    <li><a href="#">poggers</a></li>
+                    <li><button id="familyGuyButton" onclick="changeToFamilyGuy();">family guy funny moments compilation
+                            with subway surfers gameplay at the bottom</button></li>
+                    <li><a href="#">PLUH</a></li>
+                    <li><a href="#">did you pray today</a></li>
+                    <li><a href="#">ratio</a></li>
+                    <li><a href="#">omar the referee</a></li>
+                    <li><a href="#">looksmaxxing</a></li>
+                    <li><a href="#">chat</a></li>
+                    <li><a href="#">fanum tax</a></li>
+
+                </td>
+                <td id="rightSide">
+                    <table id="innerTable">
+                        <tr>
+                            <h3 id="brainRotWordTitle">family guy funny moments compilation with subway surfers gameplay
+                                at the bottom</h3>
+                        </tr>
+                        <tr>
+                            <td id="rightLeft">
+                                <iframe id="theVideo" width=100% height=100%
+                                    src="https://www.youtube.com/embed/1YAI0DOkk2g"
+                                    title="Death shouldn&#39;t be driving 😅 #shorts #familyguy" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </td>
+                            <td id="rightRight">
+                                <p id="topicInfo">
+                                    nothing
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+
+</html>
