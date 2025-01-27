@@ -11,8 +11,10 @@
         var infoParagraph = document.getElementById("topicInfo");
         var hearderInfo = document.getElementById("brainRotWordTitle");
         var exampleVideo = document.getElementById("theVideo");
+        var source = document.getElementById("source");
         infoParagraph.innerHTML = "The leader, or dominant individual, or pair, in a pack or group of people. The alpha may be male or female, or both as a pair. This distinction comes from studies of African wild dogs and their behavior. In many cases, the female is more dominant than the male and keeps her alpha position for the remainder of her life, whereas the alpha male's position changes often. Beta males tend to compete for the alpha position, especially among large dog packs. Women want men to be alpha when they date to ensure that a man is capable of leading a relationship. We can learn a lot for wild dogs in our dating relationships. Be an Alphadog.";
         exampleVideo.src = "https://www.youtube.com/embed/MNO-IIT9ZMg";
+        source.src = "https://www.urbandictionary.com/define.php?term=alpha";
         hearderInfo.innerHTML = "Alpha";
     }
 
@@ -20,8 +22,10 @@
         var infoParagraph = document.getElementById("topicInfo");
         var hearderInfo = document.getElementById("brainRotWordTitle");
         var exampleVideo = document.getElementById("theVideo");
+        var source = document.getElementById("source");
         infoParagraph.innerHTML = "A word used when you agree with something; or when you want to recognize someone for being themselves, i.e. courageous and unique or not caring what others think. Especially common in online political slang. The opposite of cringe, some times the opposite of biased. The latter usage is the original use as coined by rapper Lil B, and the word originally took off on the meta-ironic website 4Chan with the latter meaning. For that reason the word is largely used meta-ironically (without context you can't tell if it's being used ironically or sincerely as it's used in both ways) and was popularized in online political slang of conservatives and the political right before being adopted into mainstream online political slang (likely through shitposting websites or subreddits such as r/politicalcompass memes that are similar to 4chan in their meta-irony and 'edginess' but contain a wider variety of political beliefs) and eventually adopted into general online vernacular. When used in online political language it can mean 'based in fact' or the opposite of biased due to the number of people who saw it being first used seriously by the online political right and came to the conclusion that is was related to the phrase 'destroyed with facts and logic' in reference to right wing personality Ben Shapiro.";
         exampleVideo.src = "https://www.youtube.com/embed/rPmjs_YMczw";
+        source.src = "https://www.urbandictionary.com/define.php?term=based";
         hearderInfo.innerHTML = "Based";
     }
 
@@ -196,7 +200,7 @@
     #leftSide {
         display: block;
         background-color: azure;
-        background-image: url("brain rot tier list.png");
+        background-image: url("/Users/MightyGoogle/Documents/Brain Rot Site/brain rot tier list.png");
         height: 100%;
         width: 50%;
         overflow-y: scroll;
@@ -256,7 +260,7 @@
     }
 
     #topicInfo {
-        margin-left: 10mm;
+        margin-left: 3mm;
     }
 
     #innerTable tr {
@@ -276,6 +280,10 @@
     #information {
         margin-top: 1mm;
     }
+
+    #source {
+        margin-left: 3mm;
+    }
 </style>
 
 
@@ -289,11 +297,11 @@
         <section id="navigation">
             <nav>
                 <ul>
-                    <li><a
-                            href="https://www.google.com/search?q=therapist+near+me&oq=therap&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBwgCEAAYjwIyBwgDEAAYjwIyBggEEEUYPNIBCDExMTZqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8">Get
-                            Help</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Sound Board</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.google.com/search?q=therapist+near+me&oq=therap&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBwgCEAAYjwIyBwgDEAAYjwIyBggEEEUYPNIBCDExMTZqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8">Get Help</a></li>
+                    <li><a href="translator.html">Translator</a></li>
+                    <li><a href="soundBoard.html">Sound Board</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
         </section>
@@ -345,6 +353,7 @@
                             <h4 id="information">Information:</h4>
                             <p id="topicInfo"> Click a term to learn about it.
                             </p>
+                            <a id = "source" href="https://www.urbandictionary.com/define.php?term=Brainrot">Source</a>
                         </div>
                     </div>
                 </div>
