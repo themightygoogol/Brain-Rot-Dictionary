@@ -58,7 +58,7 @@
         margin-right: auto;
         margin-top: 1mm;
         margin-bottom: 1mm;
-        height: 10mm;
+        height: 50%;
         width: 50%;
         overflow-y: auto;
     }
@@ -97,6 +97,23 @@
         text-decoration: none;
     }
 
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        background-color: dodgerblue;
+        padding: 10px;
+    }
+
+    .container div {
+        background-color: violet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+    }
 </style>
 
 
@@ -111,7 +128,9 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="https://www.google.com/search?q=therapist+near+me&oq=therap&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBwgCEAAYjwIyBwgDEAAYjwIyBggEEEUYPNIBCDExMTZqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8">Get Help</a></li>
+                    <li><a
+                            href="https://www.google.com/search?q=therapist+near+me&oq=therap&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBwgCEAAYjwIyBwgDEAAYjwIyBggEEEUYPNIBCDExMTZqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8">Get
+                            Help</a></li>
                     <li><a href="translator.html">Translator</a></li>
                     <li><a href="soundBoard.html">Sound Board</a></li>
                     <li><a href="about.html">About</a></li>
@@ -120,6 +139,35 @@
         </section>
 
         <section id="main">
+
+
+            <div class="container">
+                <div><button id="rizzButton" class="block" onclick="playRizz();">Rizz</button>
+                    <audio id="rizzSound" src="" autoplay="false"></audio>
+                </div>
+                <div><button id="pluhButton" class="block" onclick="playPluh();">Pluh</button>
+                    <audio id="pluhSound" src="" autoplay="false"></audio>
+                </div>
+                <div><button id="deezNutsButton" class="block" onclick="playDeezNuts();">Deez Nuts</button>
+                    <audio id="deezNutsSound" src="" autoplay="false"></audio>
+                </div>
+                <div><button id="didYouPrayTodayButton" class="block" onclick="playDidYouPrayToday();">Did you pray today</button>
+                    <audio id="didYouPrayTodayButton" src="" autoplay="false"></audio>
+                </div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>8</div>
+                <div>8</div>
+                <div>8</div>
+                <div>8</div>
+                <div>8</div>
+                <div>8</div>
+
+            </div>
+
         </section>
     </div>
 </body>
